@@ -1,0 +1,5 @@
+nome=input('qual é o seu nome?')
+idade=input('qual é a sua idade?')
+cidade=input('qual cidade que vc mora?')
+time=input('qual time de futebol vc torce?')
+print('meu nome é',nome,'eu tenho',idade,'anos','eu moro na cidade de',cidade,'e eu torço pro maior time do mundo que é',time)

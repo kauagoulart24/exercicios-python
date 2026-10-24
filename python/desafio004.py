@@ -1,0 +1,6 @@
+k=input('fale qualquer coisa:')
+print(type(k))
+print(k.isalpha())
+print(k.isalnum())
+print(k.isdecimal())
+print(k.isnumeric())

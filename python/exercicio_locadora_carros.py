@@ -1,0 +1,6 @@
+quantos_KM=float(input('Qual é a quantidade de KM pecorrido o seu carro alugado fez?'))
+quantos_dias=int(input('Quantos dias você alugou esse carro alugado?'))
+por_KM=(0.20 * quantos_KM)
+custo_dia=(90 * quantos_dias)
+preco_total=(por_KM + custo_dia)
+print(f'O preço total a pagar é de R${preco_total:.2f}')
